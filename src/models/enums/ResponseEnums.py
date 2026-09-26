@@ -14,3 +14,7 @@ class ResponseSignal(Enum):
     FILE_VALIDATION_SUCCESS = "FILE_VALIDATION_SUCCESS"
     FILE_VALIDATION_FAILED = "FILE_VALIDATION_FAILED"
     FILE_STORAGE_FAILED = "Unable to store file"
+
+
+    PROCESSING_SUCCESS = "success to process this file"
+    PROCESSING_FAILED = "unable to process this file"
